@@ -1,0 +1,45 @@
+.product-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 4 items per row */
+    gap: 15px 5px; /* Optional: add some space between items */
+    
+}
+
+.search-bar{
+    width: 200px;
+    border:1px solid rgb(199, 199, 199);
+    padding:10px;
+    border-radius: 10px;
+
+}
+
+.dropdown{
+    width: 120px;
+    border:1px solid rgb(199, 199, 199);
+    padding:10px;
+    border-radius: 10px;
+}
+
+.search-filter{
+    display: flex;
+    justify-content: center;
+}
+
+.shopTitle{
+    display: flex;
+    justify-content: center ;
+    margin: 20px;
+}
+
+@media (max-width: 768px) {
+    .product-list {
+        grid-template-columns: repeat(2, 1fr); /* 2 items per row */
+    }
+}
+
+/* For screens with max-width of 480px (mobile), show 1 item per row */
+@media (max-width: 480px) {
+    .product-list {
+        grid-template-columns: 1fr; /* 1 item per row */
+    }
+}

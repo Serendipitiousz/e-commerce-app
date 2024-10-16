@@ -1,0 +1,64 @@
+img{
+    width: 150px;
+    height: 150px;
+}
+.cartItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+.description{
+    text-align: center;
+}
+
+input{
+    width: 30px;
+}
+.count-handler {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    
+    background-color: rgb(212, 255, 212); 
+    border-radius: 25px; 
+    padding: 2px; 
+    box-shadow: rgba(0, 0, 0, .2) 0 1px 1px -1px, rgba(0, 0, 0, .14) 0 1px 1px 0, rgba(0, 0, 0, .12) 0 1px 1px 1px; 
+}
+
+.plus-btn,
+.minus-btn {
+    border: none; 
+    border-radius: 15px; 
+    background-color: rgb(212, 255, 212); 
+    padding: 10px 15px; 
+    font-size: 10px; 
+    font-weight: 600; 
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; 
+}
+
+.plus-btn:hover,
+.minus-btn:hover {
+    background-color: rgba(172, 255, 172, 0.8); 
+    transform: translateY(-2px); 
+}
+
+.quantity-input {
+    width: 50px; 
+    text-align: center; 
+    border: none; 
+    border-radius: 15px; 
+    padding: 8px; 
+    font-size: 10px; 
+    font-weight: 600; 
+    outline: none; 
+    background-color: rgb(212, 255, 212); 
+  
+}
+
+
+.quantity-input:focus {
+    border: 2px solid rgba(76, 175, 80, 1); 
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); 
+}
