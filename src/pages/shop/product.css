@@ -37,3 +37,8 @@
     object-fit:contain; 
     
   }
+
+.btn-div{
+    display: flex;
+  
+}
