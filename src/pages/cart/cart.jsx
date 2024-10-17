@@ -29,7 +29,7 @@ export const Cart = () => {
           <p className='subtotal'>Subtotal: ${totalAmount}</p>
           <div className='btn-div'>
             <button className='continue-btn' onClick={() => navigate('/')}>Continue Shopping</button>
-            <button className='checkout-btn'>Checkout</button>
+            <button className='checkout-btn' onClick={()=>alert('This page is not yet developed')}>Checkout</button>
           </div>
         </div>
       ) : (
