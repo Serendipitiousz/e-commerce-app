@@ -18,7 +18,7 @@ input{
 .count-handler {
     display: flex;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 20px ;
     
     background-color: rgb(212, 255, 212); 
     border-radius: 25px; 
@@ -27,7 +27,8 @@ input{
 }
 
 .plus-btn,
-.minus-btn {
+.minus-btn ,
+.remove-btn{
     border: none; 
     border-radius: 15px; 
     background-color: rgb(212, 255, 212); 

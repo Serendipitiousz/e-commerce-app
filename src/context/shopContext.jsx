@@ -10,7 +10,7 @@ export const ShopContextProvider = ({ children }) => {
   const [error, setError] = useState(null);
   const [selectedType, setSelectedType] = useState('all');
   const [loading, setLoading] = useState(true);
-
+ 
   const getDefaultCart = (products) => {
     let cart = {};
     products.forEach((product) => {
